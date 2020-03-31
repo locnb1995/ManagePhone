@@ -1,0 +1,46 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Product Manager</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
+    aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor02">
+    <ul class="navbar-nav ml-auto nav-flex-icons">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink-333"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-user-check"></i>
+        </a>
+        <div class="dropdown-menu dropdown-menu-right dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+          <a class="dropdown-item waves-effect waves-light" href="#">Action</a>
+          <a class="dropdown-item waves-effect waves-light" href="#">Another action</a>
+          <a class="dropdown-item waves-effect waves-light" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- Navbar -->
+<!-- Body -->
+<div class="container-fluid">
+  <div class="row">
+    <!-- Right Menu -->
+    <div class="col-2 right-menu">
+      <ul class="list-group">
+        <li class="list-group-item list-group-item-success" (click)="onChangeContent(1)">Product</li>
+        <li class="list-group-item list-group-item-success" (click)="onChangeContent(2)">Order</li>
+        <li class="list-group-item list-group-item-success" (click)="onChangeContent(3)">Customer</li>
+        <li class="list-group-item list-group-item-success" (click)="onChangeContent(4)">Admin</li>
+      </ul>
+    </div>
+    <!-- Right Menu -->
+    <!-- Content -->
+    <div class="col-10">
+      <app-content></app-content>
+    </div>
+    <!-- Content -->
+  </div>
+</div>
+<!-- Body -->
