@@ -1,0 +1,5 @@
+package com.baoloc.hus.manage.enums;
+
+public enum ResponseStatus {
+
+}

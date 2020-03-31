@@ -1,0 +1,12 @@
+package com.baoloc.hus.manage.data;
+
+import com.baoloc.hus.manage.enums.ResponseStatus;
+
+public final class ResponseResult
+{
+	private ResponseStatus status;
+	private Object data;
+	private String message;
+
+	
+}

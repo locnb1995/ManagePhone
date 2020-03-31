@@ -136,5 +136,8 @@
       }
     }
   },
-  "defaultProject": "ui-manage-web"
+  "defaultProject": "ui-manage-web",
+  "cli": {
+    "analytics": false
+  }
 }

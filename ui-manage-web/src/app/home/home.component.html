@@ -38,7 +38,7 @@
     <!-- Right Menu -->
     <!-- Content -->
     <div class="col-10">
-      <app-content></app-content>
+      <app-content *ngIf="tableResponse" [title]="title" [tableResponse]="tableResponse"></app-content>
     </div>
     <!-- Content -->
   </div>

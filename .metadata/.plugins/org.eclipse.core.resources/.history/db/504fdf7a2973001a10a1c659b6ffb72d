@@ -1,0 +1,11 @@
+package com.baoloc.hus.manage.enums;
+
+public enum ResponseStatus {
+	SUCCESS("success"),
+	ERROR("error")
+	
+	public final String status;
+	public ResponseStatus(status){
+		this.status = status;
+	}
+}

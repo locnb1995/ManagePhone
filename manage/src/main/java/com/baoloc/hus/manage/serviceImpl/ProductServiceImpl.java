@@ -6,9 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.baoloc.hus.manage.commons.AppConstants;
-import com.baoloc.hus.manage.commons.AppConstants.ResponseStatus;
 import com.baoloc.hus.manage.data.ResponseResult;
 import com.baoloc.hus.manage.entity.Product;
+import com.baoloc.hus.manage.enums.ResponseStatus;
 import com.baoloc.hus.manage.repository.ProductRepository;
 import com.baoloc.hus.manage.service.entityService.ProductService;
 

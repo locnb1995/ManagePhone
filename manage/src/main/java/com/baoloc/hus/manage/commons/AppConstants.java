@@ -2,11 +2,6 @@ package com.baoloc.hus.manage.commons;
 
 public final class AppConstants
 {
-	public final class ResponseStatus
-	{
-		public final static String SUCCESS = "success";
-		public final static String ERROR = "error";
-	}
 
 	public final static String get_find_data_error_message(String entity)
 	{
